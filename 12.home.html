@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Events</title>
+</head>
+<body>
+    <label for="groupSelect">Топ таңдаңыз:</label>
+    <select id="groupSelect">
+        <option value="24/2">24/2</option>
+        <option value="24/4">24/4</option>
+        <option value="24/6">24/6</option>
+    </select>
+   
+    <label for="textarea">Пікір жазыңыз:</label>
+    <textarea id="textarea" placeholder="Пікіріңізді енгізіңіз"></textarea>
+    <p id="feedbackMessage" style="color: red;"></p>
+    
+    <label for="rating">Бағалаңыз:</label>
+    <input type="range" id="rating" min="1" max="10" value="5">
+    <span id="ratingValue">5</span>
+    
+    <button id="submitBtn">Жіберу</button>
+
+    <script src="12.home.js"></script>
+</body>
+</html>
